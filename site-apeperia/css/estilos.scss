@@ -1,0 +1,39 @@
+// Sprites
+$sprite-spacing: 5px;
+@import "sprite/*.png";
+$plataformas-spacing: 5px;
+@import "plataformas/*.png";
+
+// Variáveis 
+@import 'helpers/variaveis';
+
+// Mixins 
+@import 'helpers/mixins';
+
+// Normalize
+@import 'base/normalize';
+
+/** Geral **/
+@import 'layout/geral';
+  
+/** Header **/
+@import 'layout/header';
+  
+/** Destaque **/
+@import 'layout/destaque';  
+  
+/** Sobre **/
+@import 'layout/sobre';  
+  
+/** Planos **/
+@import 'layout/planos'; 
+  
+/** Blog **/
+@import 'layout/blog';
+  
+/** Contato **/
+@import 'layout/contato';
+  
+/** Footer **/
+@import 'layout/footer' ;
+  
